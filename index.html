@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <!--
+Navigation bar code here
+-->
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.vpmslohegaon.org/" target="_blank">Vikhe Patil Memorial School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#what's_new">What's New</a></li>
+                <li><a href="#Alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="annoucement">
+        <marquee id="marqueeStyle" onmouseover="this.stop()" onmouseout="this.start()">Feel free to email at mb.bmona@gmail.com</marquee>
+        <iframe width="800" height="315" src="https://www.youtube.com/embed/CKLytcT1ad4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="container">
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">campus life</h2>
+        </div>
+
+        <div class="row">
+            <div class="travel_mainDiv col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="Library_Image.jpg">
+                <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">was estabilished in 2011</h5>
+                <p class="text-muted text-left">This is our school library. We read books here. Every year, there is a Scholastic Book Stall where we can buy whichever books we want</p>
+            </div>
+
+            <div class="travel_mainDiv col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="computerlab.jpg" width="200px" height="134px">
+                <h4 class="text-capitalize"><kbd>school computer lab</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">was estabilished in 2009</h5>
+                <p class="text-muted text-left">This is our computer lab. We learn things like MS Paint, Windows 10 and lot of things on computer</p>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="achievement">
+            <h2 class="text-capitalize">Achievement</h2>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter House Lapbook Making Competition <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="acheivementsID">
+                <img src="lapbook.jpg" class="img-responsive ing-thumbnail">
+            </div>
+
+            <div class="col-lg- col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">won first prize in inter house lapbook making competition</h5>
+                <p>Won first prize in this competition. Had to make a lapbook for SST subject on topics given house-wise.</p>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="what's_new">
+            <h2 class="text-capitalize">What's New</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4>New Assembly Stage</h4>
+                <img src="stage.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <p class="list-ggroup-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    This is the new assembly stage in our school. It was built in 2018. It is built in a indoor hall called Multipurpose Hall. Annual Day, Morning Assembly, Celebrations of National Festival, School Achievements and Regional Festivals is done here. PE sesseion is also taken here. Sometimes, when the hall is empty students from 6th to 10th alsp play badminton. Drama class is also done here.
+                </p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Alumni">
+            <h2 class="text-capitalize">Our Alumni</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="AlumniList" data-toggle="modal" data-target="#school_alumni">
+            <img src="sonakshi%20sinha.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Sonakshi Sinha</p>
+        </div>
+        <div class="modal fade" id="school_alumni">
+            <div class="modal-dialog">
+                <div class="modal-content" id="modal_2">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Sonakshi Sinha</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="sonakshi%20sinha.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Sonakshi Sinha (born 2 June 1987) is an Indian actress<br>
+                            <a href="https://en.wikipedia.org/wiki/Sonakshi_Sinha"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize">contact us</h2>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.588464315905!2d72.88846041423123!3d19.125701687059387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97f346053b7%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1610019104733!5m2!1sen!2sin" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div id="details">
+            <img src="Principal%20Picture'.png" \ class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal Name: </h3>
+            <h4>Ms. Candice Briganza</h4>
+        </div>
+        <div class="contact_1"></div>
+
+        <a href="mailto:mb.bmona@gmail.com?Subject=Hi?">
+            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mb.bmona@gmail.com</h5>
+        </a>
+
+        <a href="#">
+            <h5><i class="fa fa-facebook"></i>&nbsp;&nbsp;Vikhe Patil Memorial School, Pune</h5>
+        </a>
+
+        <a href="#">
+            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+        </a>
+    </div>
+    
+    <div id="footer"></div>
+    
